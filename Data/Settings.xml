@@ -1,0 +1,25 @@
+<Settings>
+    <Audio>
+        <Master>10</Master>
+        <Music>10</Music>
+        <SFX>10</SFX>
+    </Audio>
+    <Video>
+        <Resolution>
+            <Width>1920</Width>
+            <Height>1080</Height>
+        </Resolution>
+        <Fullscreen>True</Fullscreen>
+    </Video>
+    <Keybinds>
+        <Forward>W</Forward>
+        <Backward>S</Backward>
+        <Left>A</Left>
+        <Right>D</Right>
+        <Select>Enter</Select>
+        <NavLeft>Left</NavLeft>
+        <NavRight>Right</NavRight>
+        <NavUp>Up</NavUp>
+        <NavDown>Down</NavDown>
+    </Keybinds>
+</Settings>

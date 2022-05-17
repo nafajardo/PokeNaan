@@ -1,0 +1,12 @@
+<Colors>
+    <Color id="RED">
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+    </Color>
+    <Color id="GREEN">
+        <R>0</R>
+        <G>255</G>
+        <B>0</B>
+    </Color>
+</Colors>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+Variety of bread types as follows:
+General Bread Type
+Bagel
+Baguette
+Banana Bread
+Breadstick
+Brioche
+Brown Bread
+Ciabatta
+Challah
+Cornbread
+Crepe
+Croutons
+Cuban Bread
+English Muffin
+Gluten-Free Bread (Weak)
+Multigrain Bread
+Naan
+Pita Bread
+Pretzel
+Rye Bread
+Soda Bread
+Sourdough Bread (Strong)
+Tortilla
+White Bread (Weak)
+-->
+<TYPES>
+    <TYPE id="T1">
+        <NAME>Undercoked</NAME>
+    </TYPE>
+</TYPES>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+Variety of bread types as follows:
+General Bread Type
+Arepa
+Bagel
+Baguette
+Banana Bread
+Breadstick
+Brioche
+Brown Bread
+Ciabatta
+Challah
+Cornbread
+Crepe
+Croutons
+Cuban Bread
+English Muffin
+Gluten-Free Bread (Weak)
+Multigrain Bread
+Naan
+Pita Bread
+Pretzel
+Rye Bread
+Soda Bread
+Sourdough Bread (Strong)
+Tortilla
+White Bread (Weak)
+-->
+<!--Bread Types are as follows:
+C1:
+-->
+<RECIPES>
+    <POKENAAN ID="01">
+        <NAME>Cobraguette</NAME>
+        <HP>100</HP>
+        <DEFENSE>15</DEFENSE>
+        <TYPE>Undercooked</TYPE>
+        <ARCHEATYPE>Baguette</ARCHEATYPE>
+        <DESCRIPTOR>From france, this baguette has the sting of the eiffel tower.</DESCRIPTOR>
+        <EVOLID>01</EVOLID>
+        <MOVEID>
+            <MOVEONEID>A1</MOVEONEID>
+            <MOVETWOID>A2</MOVETWOID>
+            <MOVETHREEID>A3</MOVETHREEID>
+            <MOVEFOURID>D1</MOVEFOURID>
+        </MOVEID>
+    </POKENAAN>
+</RECIPES>

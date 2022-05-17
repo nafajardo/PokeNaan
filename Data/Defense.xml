@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Defenses>
+    <Defense id="D1">
+        <Name>Meditate</Name>
+        <Heal>5</Heal>
+        <Cost>1</Cost>
+    </Defense>
+</Defenses>

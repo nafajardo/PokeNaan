@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Attacks>
+    <Attack id="A1">
+        <Name>Slap</Name>
+        <Damage>5</Damage>
+        <Cost>1</Cost>
+
+    </Attack>
+    <Attack id="A2">
+        <Name>Punch</Name>
+        <Damage>10</Damage>
+        <Cost>2</Cost>
+    </Attack>
+    <Attack id="A3">
+        <Name>Roundhouse</Name>
+        <Damage>20</Damage>
+        <Cost>3</Cost>
+    </Attack>
+</Attacks>
