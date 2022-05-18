@@ -8,7 +8,7 @@ from Utilities.OsTools import getcwd, getPrimaryMonitorResolution
 from Utilities.TextTools import textonbottom
 
 # Sprite Sheet Object retrieval
-class spritesheet(object):
+class SpriteSheet(object):
     def __init__(self, filename:str, res:int):
         try:
             self.sheet = pygame.image.load(filename).convert()
@@ -23,10 +23,10 @@ class spritesheet(object):
         raw_x = (x-1)*self.res
         raw_y = (y-1)*self.res
         sheetrect = self.sheet.get_rect()
-        if raw_x > sheetrect.right-self.res-1 or raw_y > sheetrect.bottom-self.res-1:
+        if raw_x >= sheetrect.right-self.res+1 or raw_y >= sheetrect.bottom-self.res+1:
             raise Errors.IncorrectInput("Selected coordinate is out of range")
         imagerect = pygame.Rect(raw_x, raw_y, self.res, self.res)
-        image = pygame.Surface(imagerect.size).convert()
+        image = pygame.Surface(imagerect.size).convert().convert_alpha()
         image.blit(self.sheet, (0, 0), imagerect)
         return image
 
@@ -37,7 +37,7 @@ def scaletester():
     spriteres = 16
     resolution = getPrimaryMonitorResolution()
     screen = pygame.display.set_mode(resolution, pygame.FULLSCREEN)
-    ss = spritesheet(getcwd() + "/Art/16BitBasic/basictiles.png", spriteres)
+    ss = SpriteSheet(getcwd() + "/Art/16BitBasic/basictiles.png", spriteres)
     scale = 5
     black = (0, 0, 0)
 
