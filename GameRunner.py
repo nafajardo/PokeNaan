@@ -1,15 +1,15 @@
 import pygame
 
 from ScreenStates import MainMenu, Settings, LiveGame, Credits
+from Utilities.PyGameCustom import Screen
 
-# Game States
 mm = MainMenu()
 settings = Settings()
 lg = LiveGame()
 credits = Credits()
 
 # Spawn the screen
-screen = settings.setscreen()
+screen = Screen()
 
 states = ('Main Menu', 'Settings', 'Live Game', 'Credits')
 
