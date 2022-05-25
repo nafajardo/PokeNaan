@@ -8,7 +8,7 @@ class Screen:
         if width == None and height == None:
             res = getPrimaryMonitorResolution()
         else:
-            res = 1920, 1080
+            res = width, height
         self.width = res[0]
         self.height = res[1]
         self.boot(self.width, self.height, fullscreen)

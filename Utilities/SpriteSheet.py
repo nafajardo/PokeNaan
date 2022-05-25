@@ -18,6 +18,9 @@ class SpriteSheet(object):
     def getbounds(self):
         return self.bounds
 
+    def getdims(self):
+        return (int(self.bounds[0]/self.res), int(self.bounds[1]/self.res))
+
     # Load a specific image from a specific rectangle
     # EX: 1, 1 is the first left image (Top Left is origin of graph), with a resolution of 16
     def image_at_simple(self, x:int, y:int):
